@@ -1,0 +1,116 @@
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+  .custom-swiper-slider {
+    width: 928px;
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s, filter 0.3s;
+    }
+
+    .swiper-slide img {
+      border-radius: 0;
+      width: 275px;
+      height: 600px;
+    }
+
+    .swiper-slide-prev,
+    .swiper-slide-next {
+      transform: scale(0.8);
+      filter: brightness(50%);
+    }
+
+    .swiper-slide-active {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+  }
+}
+
+/* Контейнер для сердечек */
+.hearts-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Псевдоэлементы для создания сердечек */
+.hearts-container::before,
+.hearts-container::after,
+.hearts-container .heart1,
+.hearts-container .heart2,
+.hearts-container .heart3,
+.hearts-container .heart4,
+.hearts-container .heart5 {
+  content: '❤️';
+  position: absolute;
+  font-size: 1.5rem; /* Меньшие сердечки */
+  color: #ff4081; /* Мягкий розовый цвет */
+  animation: float 2s ease-out infinite;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1);
+  display: block;
+}
+
+/* Псевдоэлементы для анимации */
+.hearts-container::before {
+  left: 10%;
+  animation-delay: 0s;
+}
+.hearts-container::after {
+  right: 10%;
+  animation-delay: 0.5s;
+}
+.hearts-container .heart1 {
+  top: 15%;
+  left: 5%;
+  animation-delay: 0.3s;
+}
+.hearts-container .heart2 {
+  top: 30%;
+  left: 20%;
+  animation-delay: 0.6s;
+}
+.hearts-container .heart3 {
+  top: 45%;
+  left: 35%;
+  animation-delay: 0.9s;
+}
+.hearts-container .heart4 {
+  top: 60%;
+  left: 50%;
+  animation-delay: 1.2s;
+}
+.hearts-container .heart5 {
+  top: 75%;
+  left: 65%;
+  animation-delay: 1.5s;
+}
+
+@keyframes float {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1); /* Начальная позиция */
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-50px) scale(1.5); /* Подъём вверх */
+  }
+  100% {
+    opacity: 0; /* Пропадает */
+    transform: translateY(-100px) scale(1); /* Далеко вверх */
+  }
+}

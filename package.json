@@ -1,0 +1,67 @@
+{
+  "name": "mamaDR",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://gaondarech726.github.io/mamaDR/",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.4",
+    "@mui/styled-engine-sc": "^6.4.3",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "lazy": "^1.0.11",
+    "leaflet": "^1.9.4",
+    "modern-normalize": "^3.0.1",
+    "react": "^19.0.0",
+    "react-burger-menu": "^3.1.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.84.0",
+    "styled-components": "^6.1.15",
+    "swiper": "^11.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.20.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.15.0",
+    "vite": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/**/*.{js,jsx}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
