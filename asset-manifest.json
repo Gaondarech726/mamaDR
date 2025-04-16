@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mamaDR/static/css/main.cecfba9c.css",
+    "main.js": "/mamaDR/static/js/main.f7cba896.js",
+    "static/media/m.mp3": "/mamaDR/static/media/m.3092b1addd29d64dcc02.mp3",
+    "static/media/photoOne.jpg": "/mamaDR/static/media/photoOne.b71bf45ac78dbc2302a5.jpg",
+    "static/media/photoFour.jpg": "/mamaDR/static/media/photoFour.7b38c2923bd855a3b591.jpg",
+    "static/media/photoTwo.jpg": "/mamaDR/static/media/photoTwo.d1819ef3d953c2dbd2d4.jpg",
+    "static/media/photoThree.jpg": "/mamaDR/static/media/photoThree.cd3fe4150b095abd6b0a.jpg",
+    "static/media/photoFive.jpg": "/mamaDR/static/media/photoFive.018d5cb59fe6c2399094.jpg",
+    "static/media/Face.png": "/mamaDR/static/media/Face.a56764daf9fbfe2b2b17.png",
+    "static/media/pose.png": "/mamaDR/static/media/pose.cbc2861f689245274716.png",
+    "index.html": "/mamaDR/index.html",
+    "main.cecfba9c.css.map": "/mamaDR/static/css/main.cecfba9c.css.map",
+    "main.f7cba896.js.map": "/mamaDR/static/js/main.f7cba896.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cecfba9c.css",
+    "static/js/main.f7cba896.js"
+  ]
+}
